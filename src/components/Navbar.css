@@ -67,6 +67,10 @@
 }
 
 @media screen and (max-width: 960px) {
+    .fa__caret-down {
+        display: none;
+    }
+
     .nav__menu {
         display: flex;
         flex-direction: column;

@@ -73,7 +73,7 @@ export const Navbar = () => {
                             className="nav__links"
                             onClick={closeMenu}
                         >
-                            Services <FaCaretDown />
+                            Services <FaCaretDown className="fa__caret-down" />
                         </Link>
                         {drop && <Dropdown />}
                     </li>
