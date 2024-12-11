@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "Bundler",
+        "rootDir": "./src/",
+        "outDir": "./dist/",
+        "strict": true,
+        "jsx": "react-jsx",
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "target": "ES6",
+        "lib": ["DOM", "DOM.Iterable", "ES2023"],
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["src"],
+    "references": [{"path": "./tsconfig.node.json"}]
+}
+
+
+

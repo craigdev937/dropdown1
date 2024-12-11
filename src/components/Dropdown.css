@@ -1,0 +1,40 @@
+.dmenu {
+    background: var(--red);
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    list-style: none;
+    text-align: start;
+}
+
+.dmenu li {
+    background: var(--blue);
+    cursor: pointer;
+}
+
+.dmenu li:hover {
+    background: var(--sky);
+}
+
+.dmenu.clicked {
+    display: none;
+}
+
+/* dlink is located in dBase */
+.dlink {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: var(--white);
+    padding: 16px;
+}
+
+@media screen and (max-width: 960px) {
+    .fa-caret-down {
+        display: none;
+    }
+}
+
+
+

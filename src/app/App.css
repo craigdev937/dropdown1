@@ -1,0 +1,38 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --red: hsl(0, 100%, 50%);
+    --sky: hsl(211, 100%, 68%);
+    --blue: hsl(211, 100%, 55%);
+    --gray: hsl(210, 13%, 50%);
+    --black: hsl(0, 0%, 0%);
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "PT Sans";
+}
+
+body {
+    background-color: var(--white);
+}
+
+.home, .services, .products,
+.contact, .signup, .marketing, .consulting {
+    display: grid;
+    place-items: center;
+    font-size: 3rem;
+    height: 90vh;
+}
+
+.home {
+    font-size: 100px;
+    color: var(--white);
+    background-image: url("/img-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
